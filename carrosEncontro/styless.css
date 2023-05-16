@@ -1,0 +1,58 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 14pt;
+}
+.fotosCarros{
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    
+}
+figcaption{
+    transition: transform 0.3 ease;
+}
+
+figcaption:hover{
+    background: rgb(15, 112, 238);
+    transform: scale(1.20);
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+ul{
+    padding: 0px;
+    list-style-type:none;
+}
+li{
+    display: inline-block;
+    box-sizing: content-box;
+    background-color: white;
+    border-radius: 5px;
+    padding: 8px;
+    color: black;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+main{
+    text-align: center;
+}
